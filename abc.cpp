@@ -7,7 +7,6 @@ class node{
 	node* next;
 	node(int data){
 		this->data=data;
-
 	}
 };
 node* takeInput(){
