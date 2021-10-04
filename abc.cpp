@@ -29,11 +29,7 @@ node* takeInput(){
 	}
 	return head;
 }
-
-
 int main(){
-
 node* head=takeInput();
-
 	return 0;
 }

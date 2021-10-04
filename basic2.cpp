@@ -20,12 +20,9 @@ void print(node* head){
     }
     cout<<endl;
 }
-
 int main(){
-
     node* n1=new node(10);
     node* head=n1;
-
     node* n2=new node(20);
     node* n3=new node(30);
     node*n4=new node(40);
@@ -35,6 +32,5 @@ int main(){
     n3->next=n4;
 
     print(head);
-
     return 0;
 }
